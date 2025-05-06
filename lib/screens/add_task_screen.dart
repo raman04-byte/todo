@@ -54,9 +54,13 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 ),
 
                 // Title field
-                const Text(
+                Text(
                   'What needs to be done?',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                    color: theme.colorScheme.secondary,
+                  ),
                 ),
                 const SizedBox(height: 12),
                 TextFormField(
@@ -80,9 +84,13 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 const SizedBox(height: 24),
 
                 // Description field
-                const Text(
+                Text(
                   'Add details (optional)',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                    color: theme.colorScheme.secondary,
+                  ),
                 ),
                 const SizedBox(height: 12),
                 TextFormField(
