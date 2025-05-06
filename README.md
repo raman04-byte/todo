@@ -2,7 +2,7 @@
 
 A beautiful and feature-rich Todo application built with Flutter. This app allows users to manage their tasks with a clean, modern UI and offers both light and dark themes.
 
-![Todo App Screenshots](screenshots/app_preview.png)
+![Todo App Screenshots](screenshots/home_dark.png)
 
 ## Features
 
